@@ -35,7 +35,7 @@ ec.order.extraFields.block = {
 };
 
 ec.order.extraFields.fname = {
-    'title': 'Block',
+    'title': 'First Name',
     'textPlaceholder': 'First Name.',
     'type': 'text',
     'tip': 'We will put a label on a box so the recipient knows who it is from',
@@ -45,7 +45,7 @@ ec.order.extraFields.fname = {
 };
 
 ec.order.extraFields.mname = {
-    'title': 'Block',
+    'title': 'Middle Name',
     'textPlaceholder': 'Middle Name',
     'type': 'text',
     'tip': 'We will put a label on a box so the recipient knows who it is from',
@@ -55,7 +55,7 @@ ec.order.extraFields.mname = {
 };
 
 ec.order.extraFields.lname = {
-    'title': 'Block',
+    'title': 'Last Name',
     'textPlaceholder': 'Last Name',
     'type': 'text',
     'tip': 'We will put a label on a box so the recipient knows who it is from',
