@@ -3,10 +3,10 @@ ec = ec || {};
 ec.order = ec.order || {};
 ec.order.extraFields = ec.order.extraFields || {};
 
-// Add a new optional text input 'Flat or House n0.?' to shipping address form
+// Add a new optional text input 'House' to shipping address form
 ec.order.extraFields.flat = {
-    'title': 'Flat or House n0.',
-    'textPlaceholder': 'Flat or House n0.',
+    'title': 'House',
+    'textPlaceholder': 'House',
     'type': 'text',
     'tip': '',
     'required': true,
