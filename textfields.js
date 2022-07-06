@@ -65,3 +65,12 @@ ec.order.extraFields.lname = {
 };
 
 Ecwid.refreshConfig && Ecwid.refreshConfig();
+
+Ecwid.OnPageLoaded.add(function(page) {
+    if (page.type == "CHECKOUT_ADDRESS") {
+       Ecwid.Cart.setAddress({
+          "street": "N/A"
+       });
+       document.querySelector('div.ec-form__cell.ec-form__cell--street').style.display = 'none'
+    }
+});
